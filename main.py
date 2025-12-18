@@ -3,7 +3,7 @@ import math
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Imports do projeto
+
 from src.data_loader import load_data
 from src.graph_builder import (
     build_full_graph,
@@ -13,9 +13,7 @@ from src.graph_builder import (
 from src.recommender import recommend_titles
 from evaluation.evaluation_plots import generate_all_plots_extended
 
-# =====================================================
-# CONFIGURAÇÕES
-# =====================================================
+# Configurações
 CSV_PATH = os.path.join('data', 'raw', 'netflix_titles.csv')
 
 ESTADOS_UNIDOS = {"United States"}
@@ -28,9 +26,8 @@ AMERICA_LATINA = {
 }
 
 
-# =====================================================
-# EXPORTAÇÃO PARA GEPHI
-# =====================================================
+
+# Exportação para o gephi
 def exportar_para_gephi(G, nome_arquivo):
     pasta = os.path.join('paper', 'gephi_files')
     os.makedirs(pasta, exist_ok=True)
@@ -41,9 +38,8 @@ def exportar_para_gephi(G, nome_arquivo):
         print(f"❌ Erro ao exportar {nome_arquivo}: {e}")
 
 
-# =====================================================
-# BUSCA DE TÍTULOS
-# =====================================================
+
+# Buca de títulos
 def buscar_filme_proximo(termo, G):
     termo = termo.lower()
     return [
@@ -54,9 +50,8 @@ def buscar_filme_proximo(termo, G):
     ]
 
 
-# =====================================================
-# VISUALIZAÇÃO LOCAL (INALTERADA)
-# =====================================================
+
+# Visualização local
 def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
     print("\n--- Gerando Visualização (Espessura por Relevância) ---")
     
@@ -104,14 +99,14 @@ def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
         tipo_target = G.nodes[target].get('type')
         degree = G.degree(target)
         
-        # REGRA DE ESPESSURA VISUAL:
+        # Regra de espessura visual:
         if tipo_target == 'person':
             w = 6.0  # Atores = Muito grosso
         elif tipo_target == 'genre':
             if degree < 100: w = 4.0 # Nicho = Grosso
             else: w = 2.0 # Genérico = Médio
         elif tipo_target == 'country':
-            w = 0.3  # País = Muito fino (quase invisível)
+            w = 0.3  # País = Muito fino
         else:
             w = 1.0
             
@@ -124,9 +119,9 @@ def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
     plt.tight_layout()
     plt.show()
 
-# =====================================================
-# FUNÇÃO PRINCIPAL
-# =====================================================
+
+# Função principal
+
 def main():
     print("=== NETFLIX ANALYTICS TOOL ===")
 
@@ -136,25 +131,25 @@ def main():
         print("❌ Erro ao carregar o CSV.")
         return
 
-    # =================================================
-    # CONSTRUÇÃO DOS GRAFOS (LÓGICA ACRESCENTADA)
-    # =================================================
+
+    # Construção dos grafos
+
     print("\nConstruindo grafos...")
 
-    # Grafo completo (recomendação)
+    # Grafo completo
     G_full = build_full_graph(df)
 
     # Grafo global País × Gênero
     G_country_genre = build_country_genre_graph(df)
 
-    # Grafos regionais INDEPENDENTES
+    # Grafos regionais
     G_eua = build_region_country_genre_graph(df, ESTADOS_UNIDOS)
     G_europa = build_region_country_genre_graph(df, EUROPA)
     G_latam = build_region_country_genre_graph(df, AMERICA_LATINA)
 
-    # =================================================
-    # MENU (INALTERADO, APENAS USANDO OS GRAFOS CRIADOS)
-    # =================================================
+
+    # Menu
+
     while True:
         print("\n" + "=" * 50)
         print("1. 🎬 Buscar Filme e Recomendar")
@@ -210,8 +205,6 @@ def main():
             print("❌ Opção inválida.")
 
 
-# =====================================================
-# ENTRY POINT
-# =====================================================
+
 if __name__ == "__main__":
     main()

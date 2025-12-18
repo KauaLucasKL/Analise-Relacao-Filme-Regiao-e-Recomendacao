@@ -2,9 +2,8 @@ import networkx as nx
 from itertools import product
 from collections import Counter
 
-# =====================================================
-# GRAFO COMPLETO (FILMES) → RECOMENDAÇÃO
-# =====================================================
+# Grafo completo (filmes) -> recomendação
+
 def build_full_graph(df):
     G = nx.Graph()
 
@@ -26,10 +25,7 @@ def build_full_graph(df):
     print(f"Grafo completo: {G.number_of_nodes()} nós, {G.number_of_edges()} arestas.")
     return G
 
-
-# =====================================================
-# GRAFO PAÍS × GÊNERO (GLOBAL)
-# =====================================================
+# Grafo país x gênero (global)
 def build_country_genre_graph(df, min_edge_weight=5, top_countries=15, top_genres=15):
     edge_counter = Counter()
 
@@ -62,10 +58,7 @@ def build_country_genre_graph(df, min_edge_weight=5, top_countries=15, top_genre
     print(f"Grafo País–Gênero Global: {G.number_of_nodes()} nós, {G.number_of_edges()} arestas.")
     return G
 
-
-# =====================================================
-# GRAFO PAÍS × GÊNERO POR REGIÃO (INDEPENDENTE)
-# =====================================================
+# Grafo país x gênero por região
 def build_region_country_genre_graph(df, region_countries, min_edge_weight=3):
     edge_counter = Counter()
 

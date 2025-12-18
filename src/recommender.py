@@ -3,10 +3,10 @@ import networkx as nx
 from collections import defaultdict
 from difflib import SequenceMatcher
 
-# =====================================================
-# CONFIGURAÇÃO DE PESOS PARA FÓRMULAS
-# =====================================================
-WEIGHT_PERSON = 0.7    # Atores/Diretores são a "impressão digital" do filme
+
+# Configuração de pesos para as fórmulas
+
+WEIGHT_PERSON = 0.7    
 WEIGHT_GENRE = 0.4     # Gêneros são importantes
 WEIGHT_COUNTRY = 0.05  # País influencia muito pouco
 
@@ -110,13 +110,7 @@ def recommend_titles(title_label, G, top_n=5):
         # C. Text Similarity (Semântica/Nome)
         text_score = get_text_similarity(title_label, candidate_label)
         
-        # --- CORREÇÃO: TRAVA DE SEGURANÇA ESTRUTURAL ---
-        # O problema anterior era que "Freckles in the World" ganhava boost só pelo nome.
-        # Agora, exigimos que jac_score seja > 0.10 (10% de similaridade de conteúdo).
-        # Se eles só compartilham "Comedies" (um hub genérico), o Jaccard será muito baixo (< 0.05).
-        # Se eles compartilham "Children & Family" + "Robert Rodriguez", o Jaccard será alto (> 0.3).
-        
-        threshold_estrutural = 1.0  # Mínimo de 12% de sobreposição ponderada
+        threshold_estrutural = 1.0  # Mínimo de 100% de sobreposição ponderada
         
         if jac_score < threshold_estrutural:
             # Se a estrutura não bate, ignora a semelhança de nome (evita falsos positivos)
@@ -124,7 +118,7 @@ def recommend_titles(title_label, G, top_n=5):
         else:
             # Se passou na trava estrutural, aplica o boost de franquia se merecer
             if text_score > 0.6:
-                text_score *= 8.0 # Boost agressivo, mas seguro agora
+                text_score *= 8.0 
         
         # 4. Fórmula Final
         final_score = (aa_score * ALPHA_ADAMIC) + \

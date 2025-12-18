@@ -8,9 +8,7 @@ IMAGES_DIR = os.path.join("paper", "images")
 os.makedirs(IMAGES_DIR, exist_ok=True)
 
 
-# =====================================================
-# 1. Distribuição de grau (melhorada)
-# =====================================================
+# 1. Distribuição de grau
 def plot_degree_distribution(G):
     degrees = [d for _, d in G.degree() if d > 0]
 
@@ -28,9 +26,13 @@ def plot_degree_distribution(G):
     plt.close()
 
 
-# =====================================================
-# 2. Centralidade de gêneros (melhorada)
-# =====================================================
+
+
+
+
+
+
+# 2. Centralidade de gêneros
 def plot_centralidade_generos(G, top_n=10):
     from collections import defaultdict
 
@@ -65,9 +67,9 @@ def plot_centralidade_generos(G, top_n=10):
 
 
 
-# =====================================================
+
 # 3. Distribuição de gêneros por região
-# =====================================================
+
 def plot_genero_regiao(G, regiao_nome):
     genre_weights = Counter()
 
@@ -92,9 +94,9 @@ def plot_genero_regiao(G, regiao_nome):
     plt.close()
 
 
-# =====================================================
+
 # 4. Comparação estrutural entre regiões
-# =====================================================
+
 def plot_comparacao_regioes(region_graphs):
     nomes = []
     nos = []
@@ -122,9 +124,7 @@ def plot_comparacao_regioes(region_graphs):
     plt.close()
 
 
-# =====================================================
-# 5. Avaliação do sistema de recomendação (CORRETA)
-# =====================================================
+# 5. Avaliação do sistema de recomendação 
 def plot_avaliacao_recomendacao(G_full, recommender_fn, sample_size=100):
     titles = [
         n for n, d in G_full.nodes(data=True)
@@ -150,9 +150,7 @@ def plot_avaliacao_recomendacao(G_full, recommender_fn, sample_size=100):
     plt.close()
 
 
-# =====================================================
-# FUNÇÃO PRINCIPAL
-# =====================================================
+# Função principal
 def generate_all_plots_extended(
     G_country_genre,
     G_full,

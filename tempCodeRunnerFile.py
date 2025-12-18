@@ -3,7 +3,7 @@ import math
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Imports do projeto
+
 from src.data_loader import load_data
 from src.graph_builder import (
     build_full_graph,
@@ -11,10 +11,10 @@ from src.graph_builder import (
     build_region_country_genre_graph
 )
 from src.recommender import recommend_titles
-# Importando a função de gráficos que estava faltando
+
 from evaluation.evaluation_plots import generate_all_plots_extended
 
-# --- CONFIGURAÇÕES ---
+# Configurações
 CSV_PATH = os.path.join('data', 'raw', 'netflix_titles.csv')
 ESTADOS_UNIDOS = {"United States"}
 EUROPA = {"United Kingdom", "France", "Germany", "Spain", "Italy", "Netherlands", "Sweden", "Norway", "Denmark", "Belgium"}
@@ -33,9 +33,9 @@ def buscar_filme_proximo(termo, G):
     termo = termo.lower()
     return [d['label'] for n, d in G.nodes(data=True) if d.get('type')=='title' and termo in d.get('label','').lower()]
 
-# =====================================================
-# VISUALIZAÇÃO COM ESPESSURA AGRESSIVA
-# =====================================================
+
+# Visualização com espessura agressiva
+
 def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
     print("\n--- Gerando Visualização (Espessura por Relevância) ---")
     
@@ -83,14 +83,14 @@ def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
         tipo_target = G.nodes[target].get('type')
         degree = G.degree(target)
         
-        # REGRA DE ESPESSURA VISUAL:
+        # Regra de espessura visual:
         if tipo_target == 'person':
             w = 6.0  # Atores = Muito grosso
         elif tipo_target == 'genre':
             if degree < 100: w = 4.0 # Nicho = Grosso
             else: w = 2.0 # Genérico = Médio
         elif tipo_target == 'country':
-            w = 0.3  # País = Muito fino (quase invisível)
+            w = 0.3  # País = Muito fino
         else:
             w = 1.0
             
@@ -103,9 +103,9 @@ def visualizar_grafo_recomendacao(G, filme_alvo, recomendacoes):
     plt.tight_layout()
     plt.show()
 
-# =====================================================
-# MENU PRINCIPAL
-# =====================================================
+
+# Menu
+
 def main():
     print("=== NETFLIX ANALYTICS TOOL ===")
     
@@ -118,7 +118,7 @@ def main():
     print("Construindo grafo completo...")
     G_full = build_full_graph(df)
     
-    # Pré-carrega grafos regionais para a Opção 3
+    # Pré-carrega grafos regionais
     print("Preparando dados regionais...")
     G_country_genre = build_country_genre_graph(df)
     G_eua = build_region_country_genre_graph(G_country_genre, ESTADOS_UNIDOS)
@@ -157,7 +157,7 @@ def main():
             exportar_para_gephi(G_country_genre, "paises_generos.gexf")
             
         elif opt == '3':
-            # Chama a função de plotagem que estava faltando
+            # Chama a função de plotagem
             print("\nGerando gráficos estatísticos... (Verifique a pasta /paper/images)")
             
             # Monta o dicionário que a função espera
