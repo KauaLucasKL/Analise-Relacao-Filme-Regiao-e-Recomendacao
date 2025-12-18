@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Dramas" label="Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Independent Movies" label="Independent Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="International Movies" label="International Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="British TV Shows" label="British TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Reality TV" label="Reality TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Thrillers" label="Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="International TV Shows" label="International TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Comedies" label="TV Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Kids' TV" label="Kids' TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Docuseries" label="Docuseries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Spain" label="Spain">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Sci-Fi &amp; Fantasy" label="Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Documentaries" label="Documentaries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Belgium" label="Belgium">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="TV Dramas" label="TV Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Children &amp; Family Movies" label="Children &amp; Family Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Comedies" label="Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Crime TV Shows" label="Crime TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Spanish-Language TV Shows" label="Spanish-Language TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic Movies" label="Romantic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Italy" label="Italy">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Action &amp; Adventure" label="Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Cult Movies" label="Cult Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Classic Movies" label="Classic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Music &amp; Musicals" label="Music &amp; Musicals">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic TV Shows" label="Romantic TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Horror Movies" label="Horror Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Action &amp; Adventure" label="TV Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Denmark" label="Denmark">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Sports Movies" label="Sports Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Netherlands" label="Netherlands">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Faith &amp; Spirituality" label="Faith &amp; Spirituality">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sweden" label="Sweden">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Norway" label="Norway">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Science &amp; Nature TV" label="Science &amp; Nature TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Stand-Up Comedy" label="Stand-Up Comedy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="LGBTQ Movies" label="LGBTQ Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Classic &amp; Cult TV" label="Classic &amp; Cult TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Sci-Fi &amp; Fantasy" label="TV Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Horror" label="TV Horror">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Movies" label="Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Thrillers" label="TV Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="United Kingdom" target="Dramas" id="0" weight="0.8755555555555555" />
+      <edge source="United Kingdom" target="Independent Movies" id="1" weight="0.3288888888888889" />
+      <edge source="United Kingdom" target="International Movies" id="2" weight="0.7555555555555555" />
+      <edge source="United Kingdom" target="British TV Shows" id="3" weight="1.0" />
+      <edge source="United Kingdom" target="Reality TV" id="4" weight="0.15555555555555556" />
+      <edge source="United Kingdom" target="International TV Shows" id="5" weight="0.5688888888888889" />
+      <edge source="United Kingdom" target="TV Comedies" id="6" weight="0.19555555555555557" />
+      <edge source="United Kingdom" target="Kids' TV" id="7" weight="0.19111111111111112" />
+      <edge source="United Kingdom" target="Docuseries" id="8" weight="0.39555555555555555" />
+      <edge source="United Kingdom" target="Children &amp; Family Movies" id="9" weight="0.20444444444444446" />
+      <edge source="United Kingdom" target="Comedies" id="10" weight="0.40444444444444444" />
+      <edge source="United Kingdom" target="Romantic Movies" id="11" weight="0.1688888888888889" />
+      <edge source="United Kingdom" target="Documentaries" id="12" weight="0.5688888888888889" />
+      <edge source="United Kingdom" target="Thrillers" id="13" weight="0.27111111111111114" />
+      <edge source="United Kingdom" target="Action &amp; Adventure" id="14" weight="0.37333333333333335" />
+      <edge source="United Kingdom" target="Cult Movies" id="15" weight="0.03111111111111111" />
+      <edge source="United Kingdom" target="Classic Movies" id="16" weight="0.07111111111111111" />
+      <edge source="United Kingdom" target="Music &amp; Musicals" id="17" weight="0.16" />
+      <edge source="United Kingdom" target="Sci-Fi &amp; Fantasy" id="18" weight="0.15555555555555556" />
+      <edge source="United Kingdom" target="Crime TV Shows" id="19" weight="0.21333333333333335" />
+      <edge source="United Kingdom" target="TV Dramas" id="20" weight="0.16" />
+      <edge source="United Kingdom" target="Faith &amp; Spirituality" id="21" weight="0.022222222222222223" />
+      <edge source="United Kingdom" target="Horror Movies" id="22" weight="0.12444444444444444" />
+      <edge source="United Kingdom" target="Romantic TV Shows" id="23" weight="0.04888888888888889" />
+      <edge source="United Kingdom" target="Sports Movies" id="24" weight="0.09333333333333334" />
+      <edge source="United Kingdom" target="Science &amp; Nature TV" id="25" weight="0.12" />
+      <edge source="United Kingdom" target="TV Action &amp; Adventure" id="26" weight="0.04" />
+      <edge source="United Kingdom" target="LGBTQ Movies" id="27" weight="0.03111111111111111" />
+      <edge source="United Kingdom" target="Classic &amp; Cult TV" id="28" weight="0.03111111111111111" />
+      <edge source="United Kingdom" target="Stand-Up Comedy" id="29" weight="0.09333333333333334" />
+      <edge source="United Kingdom" target="TV Sci-Fi &amp; Fantasy" id="30" weight="0.017777777777777778" />
+      <edge source="United Kingdom" target="Movies" id="31" weight="0.017777777777777778" />
+      <edge source="Dramas" target="Germany" id="32" weight="0.35555555555555557" />
+      <edge source="Dramas" target="France" id="33" weight="0.7422222222222222" />
+      <edge source="Dramas" target="Italy" id="34" weight="0.14222222222222222" />
+      <edge source="Dramas" target="Spain" id="35" weight="0.3377777777777778" />
+      <edge source="Dramas" target="Netherlands" id="36" weight="0.08444444444444445" />
+      <edge source="Dramas" target="Belgium" id="37" weight="0.19555555555555557" />
+      <edge source="Dramas" target="Denmark" id="38" weight="0.07111111111111111" />
+      <edge source="Dramas" target="Sweden" id="39" weight="0.06666666666666667" />
+      <edge source="Dramas" target="Norway" id="40" weight="0.057777777777777775" />
+      <edge source="Independent Movies" target="Germany" id="41" weight="0.13777777777777778" />
+      <edge source="Independent Movies" target="France" id="42" weight="0.3244444444444444" />
+      <edge source="Independent Movies" target="Spain" id="43" weight="0.08888888888888889" />
+      <edge source="Independent Movies" target="Denmark" id="44" weight="0.04" />
+      <edge source="Independent Movies" target="Belgium" id="45" weight="0.07555555555555556" />
+      <edge source="Independent Movies" target="Italy" id="46" weight="0.03111111111111111" />
+      <edge source="Independent Movies" target="Netherlands" id="47" weight="0.017777777777777778" />
+      <edge source="Independent Movies" target="Sweden" id="48" weight="0.02666666666666667" />
+      <edge source="International Movies" target="Germany" id="49" weight="0.4177777777777778" />
+      <edge source="International Movies" target="France" id="50" weight="0.92" />
+      <edge source="International Movies" target="Belgium" id="51" weight="0.2577777777777778" />
+      <edge source="International Movies" target="Spain" id="52" weight="0.6222222222222222" />
+      <edge source="International Movies" target="Denmark" id="53" weight="0.10222222222222223" />
+      <edge source="International Movies" target="Italy" id="54" weight="0.2311111111111111" />
+      <edge source="International Movies" target="Netherlands" id="55" weight="0.16444444444444445" />
+      <edge source="International Movies" target="Sweden" id="56" weight="0.08444444444444445" />
+      <edge source="International Movies" target="Norway" id="57" weight="0.07111111111111111" />
+      <edge source="Germany" target="Comedies" id="58" weight="0.18666666666666668" />
+      <edge source="Germany" target="Music &amp; Musicals" id="59" weight="0.035555555555555556" />
+      <edge source="Germany" target="Action &amp; Adventure" id="60" weight="0.14666666666666667" />
+      <edge source="Germany" target="Cult Movies" id="61" weight="0.017777777777777778" />
+      <edge source="Germany" target="Crime TV Shows" id="62" weight="0.06666666666666667" />
+      <edge source="Germany" target="International TV Shows" id="63" weight="0.15555555555555556" />
+      <edge source="Germany" target="TV Comedies" id="64" weight="0.022222222222222223" />
+      <edge source="Germany" target="Thrillers" id="65" weight="0.12444444444444444" />
+      <edge source="Germany" target="Documentaries" id="66" weight="0.09333333333333334" />
+      <edge source="Germany" target="Sports Movies" id="67" weight="0.022222222222222223" />
+      <edge source="Germany" target="TV Dramas" id="68" weight="0.08444444444444445" />
+      <edge source="Germany" target="British TV Shows" id="69" weight="0.02666666666666667" />
+      <edge source="Germany" target="Kids' TV" id="70" weight="0.035555555555555556" />
+      <edge source="Germany" target="Sci-Fi &amp; Fantasy" id="71" weight="0.057777777777777775" />
+      <edge source="Germany" target="Children &amp; Family Movies" id="72" weight="0.07555555555555556" />
+      <edge source="Germany" target="Horror Movies" id="73" weight="0.03111111111111111" />
+      <edge source="Germany" target="Romantic Movies" id="74" weight="0.044444444444444446" />
+      <edge source="Germany" target="Docuseries" id="75" weight="0.035555555555555556" />
+      <edge source="Germany" target="Science &amp; Nature TV" id="76" weight="0.013333333333333334" />
+      <edge source="Germany" target="Stand-Up Comedy" id="77" weight="0.022222222222222223" />
+      <edge source="Germany" target="Reality TV" id="78" weight="0.013333333333333334" />
+      <edge source="British TV Shows" target="Spain" id="79" weight="0.022222222222222223" />
+      <edge source="Reality TV" target="Spain" id="80" weight="0.013333333333333334" />
+      <edge source="France" target="Thrillers" id="81" weight="0.19555555555555557" />
+      <edge source="France" target="Documentaries" id="82" weight="0.19555555555555557" />
+      <edge source="France" target="TV Comedies" id="83" weight="0.10666666666666667" />
+      <edge source="France" target="TV Dramas" id="84" weight="0.12" />
+      <edge source="France" target="Romantic Movies" id="85" weight="0.09777777777777778" />
+      <edge source="France" target="Action &amp; Adventure" id="86" weight="0.16444444444444445" />
+      <edge source="France" target="Comedies" id="87" weight="0.22666666666666666" />
+      <edge source="France" target="Classic Movies" id="88" weight="0.02666666666666667" />
+      <edge source="France" target="Crime TV Shows" id="89" weight="0.10222222222222223" />
+      <edge source="France" target="International TV Shows" id="90" weight="0.19111111111111112" />
+      <edge source="France" target="Horror Movies" id="91" weight="0.044444444444444446" />
+      <edge source="France" target="Kids' TV" id="92" weight="0.19111111111111112" />
+      <edge source="France" target="TV Action &amp; Adventure" id="93" weight="0.02666666666666667" />
+      <edge source="France" target="Sci-Fi &amp; Fantasy" id="94" weight="0.044444444444444446" />
+      <edge source="France" target="Children &amp; Family Movies" id="95" weight="0.10222222222222223" />
+      <edge source="France" target="Stand-Up Comedy" id="96" weight="0.022222222222222223" />
+      <edge source="France" target="Sports Movies" id="97" weight="0.05333333333333334" />
+      <edge source="France" target="Docuseries" id="98" weight="0.03111111111111111" />
+      <edge source="France" target="Music &amp; Musicals" id="99" weight="0.035555555555555556" />
+      <edge source="France" target="TV Horror" id="100" weight="0.013333333333333334" />
+      <edge source="France" target="TV Thrillers" id="101" weight="0.013333333333333334" />
+      <edge source="France" target="Faith &amp; Spirituality" id="102" weight="0.013333333333333334" />
+      <edge source="Thrillers" target="Spain" id="103" weight="0.1688888888888889" />
+      <edge source="Thrillers" target="Italy" id="104" weight="0.04" />
+      <edge source="Thrillers" target="Belgium" id="105" weight="0.04888888888888889" />
+      <edge source="Thrillers" target="Sweden" id="106" weight="0.022222222222222223" />
+      <edge source="Thrillers" target="Norway" id="107" weight="0.022222222222222223" />
+      <edge source="Thrillers" target="Denmark" id="108" weight="0.022222222222222223" />
+      <edge source="International TV Shows" target="Belgium" id="109" weight="0.04888888888888889" />
+      <edge source="International TV Shows" target="Spain" id="110" weight="0.24" />
+      <edge source="International TV Shows" target="Netherlands" id="111" weight="0.022222222222222223" />
+      <edge source="International TV Shows" target="Sweden" id="112" weight="0.044444444444444446" />
+      <edge source="International TV Shows" target="Italy" id="113" weight="0.057777777777777775" />
+      <edge source="International TV Shows" target="Norway" id="114" weight="0.035555555555555556" />
+      <edge source="International TV Shows" target="Denmark" id="115" weight="0.044444444444444446" />
+      <edge source="TV Comedies" target="Spain" id="116" weight="0.022222222222222223" />
+      <edge source="TV Comedies" target="Italy" id="117" weight="0.013333333333333334" />
+      <edge source="TV Comedies" target="Norway" id="118" weight="0.013333333333333334" />
+      <edge source="TV Comedies" target="Sweden" id="119" weight="0.013333333333333334" />
+      <edge source="TV Comedies" target="Denmark" id="120" weight="0.013333333333333334" />
+      <edge source="Kids' TV" target="Italy" id="121" weight="0.044444444444444446" />
+      <edge source="Kids' TV" target="Spain" id="122" weight="0.017777777777777778" />
+      <edge source="Kids' TV" target="Denmark" id="123" weight="0.017777777777777778" />
+      <edge source="Kids' TV" target="Netherlands" id="124" weight="0.013333333333333334" />
+      <edge source="Docuseries" target="Spain" id="125" weight="0.04" />
+      <edge source="Spain" target="Sci-Fi &amp; Fantasy" id="126" weight="0.04888888888888889" />
+      <edge source="Spain" target="Crime TV Shows" id="127" weight="0.12" />
+      <edge source="Spain" target="Spanish-Language TV Shows" id="128" weight="0.18222222222222223" />
+      <edge source="Spain" target="Romantic TV Shows" id="129" weight="0.04" />
+      <edge source="Spain" target="Children &amp; Family Movies" id="130" weight="0.04" />
+      <edge source="Spain" target="Comedies" id="131" weight="0.2088888888888889" />
+      <edge source="Spain" target="TV Action &amp; Adventure" id="132" weight="0.017777777777777778" />
+      <edge source="Spain" target="Action &amp; Adventure" id="133" weight="0.044444444444444446" />
+      <edge source="Spain" target="Documentaries" id="134" weight="0.09333333333333334" />
+      <edge source="Spain" target="Music &amp; Musicals" id="135" weight="0.02666666666666667" />
+      <edge source="Spain" target="Romantic Movies" id="136" weight="0.04888888888888889" />
+      <edge source="Spain" target="LGBTQ Movies" id="137" weight="0.017777777777777778" />
+      <edge source="Spain" target="TV Dramas" id="138" weight="0.04888888888888889" />
+      <edge source="Spain" target="Horror Movies" id="139" weight="0.044444444444444446" />
+      <edge source="Spain" target="Sports Movies" id="140" weight="0.022222222222222223" />
+      <edge source="Spain" target="Movies" id="141" weight="0.013333333333333334" />
+      <edge source="Spain" target="Faith &amp; Spirituality" id="142" weight="0.013333333333333334" />
+      <edge source="Sci-Fi &amp; Fantasy" target="Belgium" id="143" weight="0.013333333333333334" />
+      <edge source="Documentaries" target="Belgium" id="144" weight="0.03111111111111111" />
+      <edge source="Documentaries" target="Denmark" id="145" weight="0.04888888888888889" />
+      <edge source="Documentaries" target="Netherlands" id="146" weight="0.04888888888888889" />
+      <edge source="Documentaries" target="Italy" id="147" weight="0.07555555555555556" />
+      <edge source="Documentaries" target="Sweden" id="148" weight="0.044444444444444446" />
+      <edge source="Documentaries" target="Norway" id="149" weight="0.013333333333333334" />
+      <edge source="Belgium" target="TV Dramas" id="150" weight="0.035555555555555556" />
+      <edge source="Belgium" target="Crime TV Shows" id="151" weight="0.035555555555555556" />
+      <edge source="Belgium" target="Comedies" id="152" weight="0.08888888888888889" />
+      <edge source="Belgium" target="Children &amp; Family Movies" id="153" weight="0.03111111111111111" />
+      <edge source="Belgium" target="Action &amp; Adventure" id="154" weight="0.05333333333333334" />
+      <edge source="Belgium" target="Romantic Movies" id="155" weight="0.013333333333333334" />
+      <edge source="Belgium" target="Horror Movies" id="156" weight="0.017777777777777778" />
+      <edge source="TV Dramas" target="Sweden" id="157" weight="0.03111111111111111" />
+      <edge source="TV Dramas" target="Italy" id="158" weight="0.057777777777777775" />
+      <edge source="TV Dramas" target="Norway" id="159" weight="0.022222222222222223" />
+      <edge source="TV Dramas" target="Denmark" id="160" weight="0.035555555555555556" />
+      <edge source="TV Dramas" target="Netherlands" id="161" weight="0.013333333333333334" />
+      <edge source="Children &amp; Family Movies" target="Netherlands" id="162" weight="0.022222222222222223" />
+      <edge source="Children &amp; Family Movies" target="Denmark" id="163" weight="0.013333333333333334" />
+      <edge source="Children &amp; Family Movies" target="Italy" id="164" weight="0.013333333333333334" />
+      <edge source="Comedies" target="Sweden" id="165" weight="0.022222222222222223" />
+      <edge source="Comedies" target="Netherlands" id="166" weight="0.03111111111111111" />
+      <edge source="Comedies" target="Italy" id="167" weight="0.05333333333333334" />
+      <edge source="Crime TV Shows" target="Italy" id="168" weight="0.022222222222222223" />
+      <edge source="Crime TV Shows" target="Sweden" id="169" weight="0.017777777777777778" />
+      <edge source="Romantic Movies" target="Italy" id="170" weight="0.03111111111111111" />
+      <edge source="Romantic Movies" target="Netherlands" id="171" weight="0.017777777777777778" />
+      <edge source="Italy" target="Action &amp; Adventure" id="172" weight="0.02666666666666667" />
+      <edge source="Italy" target="Classic Movies" id="173" weight="0.02666666666666667" />
+      <edge source="Italy" target="Horror Movies" id="174" weight="0.013333333333333334" />
+      <edge source="Italy" target="Sports Movies" id="175" weight="0.017777777777777778" />
+      <edge source="Italy" target="Stand-Up Comedy" id="176" weight="0.017777777777777778" />
+      <edge source="Italy" target="Music &amp; Musicals" id="177" weight="0.013333333333333334" />
+      <edge source="Action &amp; Adventure" target="Norway" id="178" weight="0.017777777777777778" />
+      <edge source="Action &amp; Adventure" target="Denmark" id="179" weight="0.013333333333333334" />
+      <edge source="Music &amp; Musicals" target="Netherlands" id="180" weight="0.013333333333333334" />
+      <edge source="Music &amp; Musicals" target="Sweden" id="181" weight="0.013333333333333334" />
+      <edge source="Romantic TV Shows" target="Sweden" id="182" weight="0.013333333333333334" />
+    </edges>
+  </graph>
+</gexf>

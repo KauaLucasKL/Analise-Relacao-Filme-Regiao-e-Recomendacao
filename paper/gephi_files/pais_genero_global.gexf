@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Documentaries" label="Documentaries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="India" label="India">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="International TV Shows" label="International TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Comedies" label="TV Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Dramas" label="Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Independent Movies" label="Independent Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="International Movies" label="International Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Comedies" label="Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Dramas" label="TV Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Mexico" label="Mexico">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Crime TV Shows" label="Crime TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic Movies" label="Romantic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Australia" label="Australia">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Horror Movies" label="Horror Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sci-Fi &amp; Fantasy" label="Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Thrillers" label="Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Action &amp; Adventure" label="Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Canada" label="Canada">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Spain" label="Spain">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Children &amp; Family Movies" label="Children &amp; Family Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Italy" label="Italy">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Argentina" label="Argentina">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="South Korea" label="South Korea">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Brazil" label="Brazil">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="United States" target="Documentaries" id="0" weight="0.5925925925925926" />
+      <edge source="United States" target="Dramas" id="1" weight="0.9664351851851852" />
+      <edge source="United States" target="Independent Movies" id="2" weight="0.4513888888888889" />
+      <edge source="United States" target="International Movies" id="3" weight="0.19212962962962962" />
+      <edge source="United States" target="Comedies" id="4" weight="0.7870370370370371" />
+      <edge source="United States" target="TV Comedies" id="5" weight="0.2986111111111111" />
+      <edge source="United States" target="TV Dramas" id="6" weight="0.26851851851851855" />
+      <edge source="United States" target="Horror Movies" id="7" weight="0.2326388888888889" />
+      <edge source="United States" target="Sci-Fi &amp; Fantasy" id="8" weight="0.20949074074074073" />
+      <edge source="United States" target="Thrillers" id="9" weight="0.33796296296296297" />
+      <edge source="United States" target="Action &amp; Adventure" id="10" weight="0.4675925925925926" />
+      <edge source="United States" target="Crime TV Shows" id="11" weight="0.16782407407407407" />
+      <edge source="United States" target="Children &amp; Family Movies" id="12" weight="0.4513888888888889" />
+      <edge source="United States" target="Romantic Movies" id="13" weight="0.2604166666666667" />
+      <edge source="United States" target="International TV Shows" id="14" weight="0.08564814814814815" />
+      <edge source="Documentaries" target="France" id="15" weight="0.05092592592592592" />
+      <edge source="Documentaries" target="United Kingdom" id="16" weight="0.14814814814814814" />
+      <edge source="Documentaries" target="Brazil" id="17" weight="0.013888888888888888" />
+      <edge source="Documentaries" target="Germany" id="18" weight="0.024305555555555556" />
+      <edge source="Documentaries" target="Argentina" id="19" weight="0.011574074074074073" />
+      <edge source="Documentaries" target="Australia" id="20" weight="0.017361111111111112" />
+      <edge source="Documentaries" target="Spain" id="21" weight="0.024305555555555556" />
+      <edge source="Documentaries" target="India" id="22" weight="0.03125" />
+      <edge source="Documentaries" target="China" id="23" weight="0.008101851851851851" />
+      <edge source="Documentaries" target="Canada" id="24" weight="0.04861111111111111" />
+      <edge source="Documentaries" target="Mexico" id="25" weight="0.020833333333333332" />
+      <edge source="Documentaries" target="Italy" id="26" weight="0.019675925925925927" />
+      <edge source="Documentaries" target="Japan" id="27" weight="0.008101851851851851" />
+      <edge source="India" target="International TV Shows" id="28" weight="0.0763888888888889" />
+      <edge source="India" target="TV Comedies" id="29" weight="0.03009259259259259" />
+      <edge source="India" target="Comedies" id="30" weight="0.3738425925925926" />
+      <edge source="India" target="International Movies" id="31" weight="1.0" />
+      <edge source="India" target="Romantic Movies" id="32" weight="0.1388888888888889" />
+      <edge source="India" target="Thrillers" id="33" weight="0.10648148148148148" />
+      <edge source="India" target="TV Dramas" id="34" weight="0.032407407407407406" />
+      <edge source="India" target="Action &amp; Adventure" id="35" weight="0.15856481481481483" />
+      <edge source="India" target="Dramas" id="36" weight="0.7662037037037037" />
+      <edge source="India" target="Independent Movies" id="37" weight="0.19328703703703703" />
+      <edge source="India" target="Horror Movies" id="38" weight="0.04050925925925926" />
+      <edge source="India" target="Sci-Fi &amp; Fantasy" id="39" weight="0.013888888888888888" />
+      <edge source="India" target="Children &amp; Family Movies" id="40" weight="0.03009259259259259" />
+      <edge source="India" target="Crime TV Shows" id="41" weight="0.010416666666666666" />
+      <edge source="International TV Shows" target="Australia" id="42" weight="0.03587962962962963" />
+      <edge source="International TV Shows" target="United Kingdom" id="43" weight="0.14814814814814814" />
+      <edge source="International TV Shows" target="Japan" id="44" weight="0.17476851851851852" />
+      <edge source="International TV Shows" target="Spain" id="45" weight="0.0625" />
+      <edge source="International TV Shows" target="South Korea" id="46" weight="0.17592592592592593" />
+      <edge source="International TV Shows" target="France" id="47" weight="0.04976851851851852" />
+      <edge source="International TV Shows" target="Argentina" id="48" weight="0.018518518518518517" />
+      <edge source="International TV Shows" target="Mexico" id="49" weight="0.04976851851851852" />
+      <edge source="International TV Shows" target="Germany" id="50" weight="0.04050925925925926" />
+      <edge source="International TV Shows" target="Canada" id="51" weight="0.028935185185185185" />
+      <edge source="International TV Shows" target="China" id="52" weight="0.046296296296296294" />
+      <edge source="International TV Shows" target="Italy" id="53" weight="0.015046296296296295" />
+      <edge source="International TV Shows" target="Brazil" id="54" weight="0.03009259259259259" />
+      <edge source="TV Comedies" target="United Kingdom" id="55" weight="0.05092592592592592" />
+      <edge source="TV Comedies" target="France" id="56" weight="0.027777777777777776" />
+      <edge source="TV Comedies" target="Australia" id="57" weight="0.019675925925925927" />
+      <edge source="TV Comedies" target="Germany" id="58" weight="0.005787037037037037" />
+      <edge source="TV Comedies" target="Canada" id="59" weight="0.034722222222222224" />
+      <edge source="TV Comedies" target="South Korea" id="60" weight="0.02199074074074074" />
+      <edge source="TV Comedies" target="Japan" id="61" weight="0.011574074074074073" />
+      <edge source="TV Comedies" target="Spain" id="62" weight="0.005787037037037037" />
+      <edge source="TV Comedies" target="China" id="63" weight="0.013888888888888888" />
+      <edge source="TV Comedies" target="Brazil" id="64" weight="0.006944444444444444" />
+      <edge source="Dramas" target="United Kingdom" id="65" weight="0.22800925925925927" />
+      <edge source="Dramas" target="Germany" id="66" weight="0.09259259259259259" />
+      <edge source="Dramas" target="China" id="67" weight="0.037037037037037035" />
+      <edge source="Dramas" target="Canada" id="68" weight="0.09490740740740741" />
+      <edge source="Dramas" target="Australia" id="69" weight="0.04398148148148148" />
+      <edge source="Dramas" target="France" id="70" weight="0.19328703703703703" />
+      <edge source="Dramas" target="Mexico" id="71" weight="0.05092592592592592" />
+      <edge source="Dramas" target="Italy" id="72" weight="0.037037037037037035" />
+      <edge source="Dramas" target="Argentina" id="73" weight="0.04050925925925926" />
+      <edge source="Dramas" target="Spain" id="74" weight="0.08796296296296297" />
+      <edge source="Dramas" target="Japan" id="75" weight="0.02662037037037037" />
+      <edge source="Dramas" target="Brazil" id="76" weight="0.03009259259259259" />
+      <edge source="Dramas" target="South Korea" id="77" weight="0.03009259259259259" />
+      <edge source="Independent Movies" target="United Kingdom" id="78" weight="0.08564814814814815" />
+      <edge source="Independent Movies" target="Germany" id="79" weight="0.03587962962962963" />
+      <edge source="Independent Movies" target="Canada" id="80" weight="0.05092592592592592" />
+      <edge source="Independent Movies" target="Australia" id="81" weight="0.009259259259259259" />
+      <edge source="Independent Movies" target="France" id="82" weight="0.08449074074074074" />
+      <edge source="Independent Movies" target="Mexico" id="83" weight="0.02662037037037037" />
+      <edge source="Independent Movies" target="Spain" id="84" weight="0.023148148148148147" />
+      <edge source="Independent Movies" target="Brazil" id="85" weight="0.013888888888888888" />
+      <edge source="Independent Movies" target="Argentina" id="86" weight="0.009259259259259259" />
+      <edge source="Independent Movies" target="Italy" id="87" weight="0.008101851851851851" />
+      <edge source="Independent Movies" target="Japan" id="88" weight="0.008101851851851851" />
+      <edge source="International Movies" target="United Kingdom" id="89" weight="0.19675925925925927" />
+      <edge source="International Movies" target="Germany" id="90" weight="0.1087962962962963" />
+      <edge source="International Movies" target="Japan" id="91" weight="0.08333333333333333" />
+      <edge source="International Movies" target="France" id="92" weight="0.23958333333333334" />
+      <edge source="International Movies" target="Argentina" id="93" weight="0.06712962962962964" />
+      <edge source="International Movies" target="China" id="94" weight="0.08217592592592593" />
+      <edge source="International Movies" target="Mexico" id="95" weight="0.08101851851851852" />
+      <edge source="International Movies" target="Australia" id="96" weight="0.034722222222222224" />
+      <edge source="International Movies" target="Brazil" id="97" weight="0.04976851851851852" />
+      <edge source="International Movies" target="Spain" id="98" weight="0.16203703703703703" />
+      <edge source="International Movies" target="Italy" id="99" weight="0.06018518518518518" />
+      <edge source="International Movies" target="Canada" id="100" weight="0.06944444444444445" />
+      <edge source="International Movies" target="South Korea" id="101" weight="0.05092592592592592" />
+      <edge source="United Kingdom" target="Children &amp; Family Movies" id="102" weight="0.05324074074074074" />
+      <edge source="United Kingdom" target="Comedies" id="103" weight="0.10532407407407407" />
+      <edge source="United Kingdom" target="Romantic Movies" id="104" weight="0.04398148148148148" />
+      <edge source="United Kingdom" target="Thrillers" id="105" weight="0.07060185185185185" />
+      <edge source="United Kingdom" target="Action &amp; Adventure" id="106" weight="0.09722222222222222" />
+      <edge source="United Kingdom" target="Sci-Fi &amp; Fantasy" id="107" weight="0.04050925925925926" />
+      <edge source="United Kingdom" target="Crime TV Shows" id="108" weight="0.05555555555555555" />
+      <edge source="United Kingdom" target="TV Dramas" id="109" weight="0.041666666666666664" />
+      <edge source="United Kingdom" target="Horror Movies" id="110" weight="0.032407407407407406" />
+      <edge source="Germany" target="Comedies" id="111" weight="0.04861111111111111" />
+      <edge source="Germany" target="Action &amp; Adventure" id="112" weight="0.03819444444444445" />
+      <edge source="Germany" target="Crime TV Shows" id="113" weight="0.017361111111111112" />
+      <edge source="Germany" target="Thrillers" id="114" weight="0.032407407407407406" />
+      <edge source="Germany" target="TV Dramas" id="115" weight="0.02199074074074074" />
+      <edge source="Germany" target="Sci-Fi &amp; Fantasy" id="116" weight="0.015046296296296295" />
+      <edge source="Germany" target="Children &amp; Family Movies" id="117" weight="0.019675925925925927" />
+      <edge source="Germany" target="Horror Movies" id="118" weight="0.008101851851851851" />
+      <edge source="Germany" target="Romantic Movies" id="119" weight="0.011574074074074073" />
+      <edge source="Comedies" target="Canada" id="120" weight="0.1087962962962963" />
+      <edge source="Comedies" target="Australia" id="121" weight="0.017361111111111112" />
+      <edge source="Comedies" target="France" id="122" weight="0.059027777777777776" />
+      <edge source="Comedies" target="Argentina" id="123" weight="0.016203703703703703" />
+      <edge source="Comedies" target="Spain" id="124" weight="0.05439814814814815" />
+      <edge source="Comedies" target="China" id="125" weight="0.03587962962962963" />
+      <edge source="Comedies" target="South Korea" id="126" weight="0.019675925925925927" />
+      <edge source="Comedies" target="Brazil" id="127" weight="0.023148148148148147" />
+      <edge source="Comedies" target="Mexico" id="128" weight="0.027777777777777776" />
+      <edge source="Comedies" target="Italy" id="129" weight="0.013888888888888888" />
+      <edge source="Comedies" target="Japan" id="130" weight="0.010416666666666666" />
+      <edge source="TV Dramas" target="Mexico" id="131" weight="0.013888888888888888" />
+      <edge source="TV Dramas" target="France" id="132" weight="0.03125" />
+      <edge source="TV Dramas" target="Australia" id="133" weight="0.02199074074074074" />
+      <edge source="TV Dramas" target="South Korea" id="134" weight="0.04398148148148148" />
+      <edge source="TV Dramas" target="Canada" id="135" weight="0.037037037037037035" />
+      <edge source="TV Dramas" target="Japan" id="136" weight="0.024305555555555556" />
+      <edge source="TV Dramas" target="Italy" id="137" weight="0.015046296296296295" />
+      <edge source="TV Dramas" target="Brazil" id="138" weight="0.01273148148148148" />
+      <edge source="TV Dramas" target="Spain" id="139" weight="0.01273148148148148" />
+      <edge source="TV Dramas" target="China" id="140" weight="0.023148148148148147" />
+      <edge source="Mexico" target="Crime TV Shows" id="141" weight="0.037037037037037035" />
+      <edge source="Mexico" target="Action &amp; Adventure" id="142" weight="0.010416666666666666" />
+      <edge source="Mexico" target="Horror Movies" id="143" weight="0.009259259259259259" />
+      <edge source="Mexico" target="Sci-Fi &amp; Fantasy" id="144" weight="0.006944444444444444" />
+      <edge source="Mexico" target="Romantic Movies" id="145" weight="0.009259259259259259" />
+      <edge source="Mexico" target="Children &amp; Family Movies" id="146" weight="0.005787037037037037" />
+      <edge source="Crime TV Shows" target="Spain" id="147" weight="0.03125" />
+      <edge source="Crime TV Shows" target="France" id="148" weight="0.02662037037037037" />
+      <edge source="Crime TV Shows" target="Argentina" id="149" weight="0.009259259259259259" />
+      <edge source="Crime TV Shows" target="Japan" id="150" weight="0.018518518518518517" />
+      <edge source="Crime TV Shows" target="South Korea" id="151" weight="0.027777777777777776" />
+      <edge source="Crime TV Shows" target="Brazil" id="152" weight="0.006944444444444444" />
+      <edge source="Crime TV Shows" target="Italy" id="153" weight="0.005787037037037037" />
+      <edge source="Crime TV Shows" target="Australia" id="154" weight="0.008101851851851851" />
+      <edge source="Crime TV Shows" target="Canada" id="155" weight="0.017361111111111112" />
+      <edge source="Romantic Movies" target="Australia" id="156" weight="0.006944444444444444" />
+      <edge source="Romantic Movies" target="France" id="157" weight="0.02546296296296296" />
+      <edge source="Romantic Movies" target="Italy" id="158" weight="0.008101851851851851" />
+      <edge source="Romantic Movies" target="Canada" id="159" weight="0.028935185185185185" />
+      <edge source="Romantic Movies" target="Japan" id="160" weight="0.008101851851851851" />
+      <edge source="Romantic Movies" target="Spain" id="161" weight="0.01273148148148148" />
+      <edge source="Romantic Movies" target="China" id="162" weight="0.010416666666666666" />
+      <edge source="Australia" target="Thrillers" id="163" weight="0.010416666666666666" />
+      <edge source="Australia" target="Action &amp; Adventure" id="164" weight="0.015046296296296295" />
+      <edge source="Australia" target="Children &amp; Family Movies" id="165" weight="0.02199074074074074" />
+      <edge source="Australia" target="Sci-Fi &amp; Fantasy" id="166" weight="0.008101851851851851" />
+      <edge source="Horror Movies" target="France" id="167" weight="0.011574074074074073" />
+      <edge source="Horror Movies" target="South Korea" id="168" weight="0.005787037037037037" />
+      <edge source="Horror Movies" target="Canada" id="169" weight="0.041666666666666664" />
+      <edge source="Horror Movies" target="Spain" id="170" weight="0.011574074074074073" />
+      <edge source="Sci-Fi &amp; Fantasy" target="Spain" id="171" weight="0.01273148148148148" />
+      <edge source="Sci-Fi &amp; Fantasy" target="Canada" id="172" weight="0.032407407407407406" />
+      <edge source="Sci-Fi &amp; Fantasy" target="France" id="173" weight="0.011574074074074073" />
+      <edge source="Sci-Fi &amp; Fantasy" target="Japan" id="174" weight="0.010416666666666666" />
+      <edge source="Sci-Fi &amp; Fantasy" target="China" id="175" weight="0.015046296296296295" />
+      <edge source="Sci-Fi &amp; Fantasy" target="South Korea" id="176" weight="0.005787037037037037" />
+      <edge source="Thrillers" target="France" id="177" weight="0.05092592592592592" />
+      <edge source="Thrillers" target="Spain" id="178" weight="0.04398148148148148" />
+      <edge source="Thrillers" target="Argentina" id="179" weight="0.009259259259259259" />
+      <edge source="Thrillers" target="Canada" id="180" weight="0.056712962962962965" />
+      <edge source="Thrillers" target="South Korea" id="181" weight="0.016203703703703703" />
+      <edge source="Thrillers" target="Italy" id="182" weight="0.010416666666666666" />
+      <edge source="Thrillers" target="Japan" id="183" weight="0.005787037037037037" />
+      <edge source="Thrillers" target="China" id="184" weight="0.006944444444444444" />
+      <edge source="France" target="Action &amp; Adventure" id="185" weight="0.04282407407407408" />
+      <edge source="France" target="Children &amp; Family Movies" id="186" weight="0.02662037037037037" />
+      <edge source="China" target="Action &amp; Adventure" id="187" weight="0.07291666666666667" />
+      <edge source="China" target="Children &amp; Family Movies" id="188" weight="0.018518518518518517" />
+      <edge source="Action &amp; Adventure" target="Canada" id="189" weight="0.05092592592592592" />
+      <edge source="Action &amp; Adventure" target="Japan" id="190" weight="0.06597222222222222" />
+      <edge source="Action &amp; Adventure" target="Italy" id="191" weight="0.006944444444444444" />
+      <edge source="Action &amp; Adventure" target="Brazil" id="192" weight="0.005787037037037037" />
+      <edge source="Action &amp; Adventure" target="Spain" id="193" weight="0.011574074074074073" />
+      <edge source="Action &amp; Adventure" target="South Korea" id="194" weight="0.019675925925925927" />
+      <edge source="Canada" target="Children &amp; Family Movies" id="195" weight="0.09259259259259259" />
+      <edge source="Japan" target="Children &amp; Family Movies" id="196" weight="0.02199074074074074" />
+      <edge source="Spain" target="Children &amp; Family Movies" id="197" weight="0.010416666666666666" />
+      <edge source="Children &amp; Family Movies" target="Brazil" id="198" weight="0.008101851851851851" />
+      <edge source="Children &amp; Family Movies" target="South Korea" id="199" weight="0.011574074074074073" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Mexico" label="Mexico">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Crime TV Shows" label="Crime TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Spanish-Language TV Shows" label="Spanish-Language TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Dramas" label="TV Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Action &amp; Adventure" label="Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Dramas" label="Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Argentina" label="Argentina">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="International Movies" label="International Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Thrillers" label="Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Brazil" label="Brazil">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="International TV Shows" label="International TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Colombia" label="Colombia">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Stand-Up Comedy" label="Stand-Up Comedy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Independent Movies" label="Independent Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Documentaries" label="Documentaries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Comedies" label="Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Horror Movies" label="Horror Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sci-Fi &amp; Fantasy" label="Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic TV Shows" label="Romantic TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Music &amp; Musicals" label="Music &amp; Musicals">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic Movies" label="Romantic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Docuseries" label="Docuseries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Reality TV" label="Reality TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Chile" label="Chile">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Children &amp; Family Movies" label="Children &amp; Family Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Action &amp; Adventure" label="TV Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Comedies" label="TV Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sports Movies" label="Sports Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="LGBTQ Movies" label="LGBTQ Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Mysteries" label="TV Mysteries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Peru" label="Peru">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Faith &amp; Spirituality" label="Faith &amp; Spirituality">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Kids' TV" label="Kids' TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Mexico" target="Crime TV Shows" id="0" weight="0.45714285714285713" />
+      <edge source="Mexico" target="Spanish-Language TV Shows" id="1" weight="0.6714285714285714" />
+      <edge source="Mexico" target="TV Dramas" id="2" weight="0.17142857142857143" />
+      <edge source="Mexico" target="Action &amp; Adventure" id="3" weight="0.12857142857142856" />
+      <edge source="Mexico" target="Dramas" id="4" weight="0.6285714285714286" />
+      <edge source="Mexico" target="Independent Movies" id="5" weight="0.32857142857142857" />
+      <edge source="Mexico" target="International Movies" id="6" weight="1.0" />
+      <edge source="Mexico" target="International TV Shows" id="7" weight="0.6142857142857143" />
+      <edge source="Mexico" target="Horror Movies" id="8" weight="0.11428571428571428" />
+      <edge source="Mexico" target="Sci-Fi &amp; Fantasy" id="9" weight="0.08571428571428572" />
+      <edge source="Mexico" target="Stand-Up Comedy" id="10" weight="0.2571428571428571" />
+      <edge source="Mexico" target="Comedies" id="11" weight="0.34285714285714286" />
+      <edge source="Mexico" target="Romantic Movies" id="12" weight="0.11428571428571428" />
+      <edge source="Mexico" target="Reality TV" id="13" weight="0.04285714285714286" />
+      <edge source="Mexico" target="Children &amp; Family Movies" id="14" weight="0.07142857142857142" />
+      <edge source="Mexico" target="TV Action &amp; Adventure" id="15" weight="0.1" />
+      <edge source="Mexico" target="TV Comedies" id="16" weight="0.05714285714285714" />
+      <edge source="Mexico" target="Documentaries" id="17" weight="0.2571428571428571" />
+      <edge source="Mexico" target="Music &amp; Musicals" id="18" weight="0.04285714285714286" />
+      <edge source="Mexico" target="Sports Movies" id="19" weight="0.04285714285714286" />
+      <edge source="Mexico" target="Docuseries" id="20" weight="0.04285714285714286" />
+      <edge source="Mexico" target="Kids' TV" id="21" weight="0.05714285714285714" />
+      <edge source="Mexico" target="Romantic TV Shows" id="22" weight="0.07142857142857142" />
+      <edge source="Crime TV Shows" target="Argentina" id="23" weight="0.11428571428571428" />
+      <edge source="Crime TV Shows" target="Colombia" id="24" weight="0.2571428571428571" />
+      <edge source="Crime TV Shows" target="Brazil" id="25" weight="0.08571428571428572" />
+      <edge source="Spanish-Language TV Shows" target="Argentina" id="26" weight="0.2571428571428571" />
+      <edge source="Spanish-Language TV Shows" target="Colombia" id="27" weight="0.42857142857142855" />
+      <edge source="Spanish-Language TV Shows" target="Chile" id="28" weight="0.05714285714285714" />
+      <edge source="TV Dramas" target="Colombia" id="29" weight="0.11428571428571428" />
+      <edge source="TV Dramas" target="Brazil" id="30" weight="0.15714285714285714" />
+      <edge source="TV Dramas" target="Chile" id="31" weight="0.05714285714285714" />
+      <edge source="Action &amp; Adventure" target="Brazil" id="32" weight="0.07142857142857142" />
+      <edge source="Action &amp; Adventure" target="Argentina" id="33" weight="0.04285714285714286" />
+      <edge source="Dramas" target="Argentina" id="34" weight="0.5" />
+      <edge source="Dramas" target="Brazil" id="35" weight="0.37142857142857144" />
+      <edge source="Dramas" target="Colombia" id="36" weight="0.1" />
+      <edge source="Dramas" target="Chile" id="37" weight="0.17142857142857143" />
+      <edge source="Argentina" target="International Movies" id="38" weight="0.8285714285714286" />
+      <edge source="Argentina" target="Thrillers" id="39" weight="0.11428571428571428" />
+      <edge source="Argentina" target="International TV Shows" id="40" weight="0.22857142857142856" />
+      <edge source="Argentina" target="Comedies" id="41" weight="0.2" />
+      <edge source="Argentina" target="Documentaries" id="42" weight="0.14285714285714285" />
+      <edge source="Argentina" target="Stand-Up Comedy" id="43" weight="0.11428571428571428" />
+      <edge source="Argentina" target="Independent Movies" id="44" weight="0.11428571428571428" />
+      <edge source="Argentina" target="Sports Movies" id="45" weight="0.08571428571428572" />
+      <edge source="Argentina" target="Music &amp; Musicals" id="46" weight="0.07142857142857142" />
+      <edge source="Argentina" target="Children &amp; Family Movies" id="47" weight="0.04285714285714286" />
+      <edge source="Argentina" target="Kids' TV" id="48" weight="0.04285714285714286" />
+      <edge source="Argentina" target="Romantic Movies" id="49" weight="0.04285714285714286" />
+      <edge source="Argentina" target="Horror Movies" id="50" weight="0.04285714285714286" />
+      <edge source="International Movies" target="Brazil" id="51" weight="0.6142857142857143" />
+      <edge source="International Movies" target="Colombia" id="52" weight="0.21428571428571427" />
+      <edge source="International Movies" target="Chile" id="53" weight="0.24285714285714285" />
+      <edge source="International Movies" target="Peru" id="54" weight="0.14285714285714285" />
+      <edge source="Thrillers" target="Brazil" id="55" weight="0.04285714285714286" />
+      <edge source="Brazil" target="Documentaries" id="56" weight="0.17142857142857143" />
+      <edge source="Brazil" target="Comedies" id="57" weight="0.2857142857142857" />
+      <edge source="Brazil" target="Music &amp; Musicals" id="58" weight="0.07142857142857142" />
+      <edge source="Brazil" target="Independent Movies" id="59" weight="0.17142857142857143" />
+      <edge source="Brazil" target="Docuseries" id="60" weight="0.08571428571428572" />
+      <edge source="Brazil" target="International TV Shows" id="61" weight="0.37142857142857144" />
+      <edge source="Brazil" target="Children &amp; Family Movies" id="62" weight="0.1" />
+      <edge source="Brazil" target="Reality TV" id="63" weight="0.07142857142857142" />
+      <edge source="Brazil" target="LGBTQ Movies" id="64" weight="0.04285714285714286" />
+      <edge source="Brazil" target="TV Mysteries" id="65" weight="0.07142857142857142" />
+      <edge source="Brazil" target="Stand-Up Comedy" id="66" weight="0.12857142857142856" />
+      <edge source="Brazil" target="Faith &amp; Spirituality" id="67" weight="0.05714285714285714" />
+      <edge source="Brazil" target="TV Comedies" id="68" weight="0.08571428571428572" />
+      <edge source="Brazil" target="Kids' TV" id="69" weight="0.04285714285714286" />
+      <edge source="International TV Shows" target="Colombia" id="70" weight="0.44285714285714284" />
+      <edge source="International TV Shows" target="Chile" id="71" weight="0.07142857142857142" />
+      <edge source="Colombia" target="Stand-Up Comedy" id="72" weight="0.05714285714285714" />
+      <edge source="Colombia" target="Independent Movies" id="73" weight="0.04285714285714286" />
+      <edge source="Colombia" target="Romantic TV Shows" id="74" weight="0.07142857142857142" />
+      <edge source="Colombia" target="Comedies" id="75" weight="0.11428571428571428" />
+      <edge source="Colombia" target="Documentaries" id="76" weight="0.04285714285714286" />
+      <edge source="Stand-Up Comedy" target="Chile" id="77" weight="0.04285714285714286" />
+      <edge source="Independent Movies" target="Chile" id="78" weight="0.11428571428571428" />
+      <edge source="Documentaries" target="Peru" id="79" weight="0.05714285714285714" />
+      <edge source="Comedies" target="Chile" id="80" weight="0.1" />
+      <edge source="Comedies" target="Peru" id="81" weight="0.04285714285714286" />
+      <edge source="Horror Movies" target="Chile" id="82" weight="0.04285714285714286" />
+    </edges>
+  </graph>
+</gexf>

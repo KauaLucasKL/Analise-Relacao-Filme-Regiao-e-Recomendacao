@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-17">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="country" />
+        </attvalues>
+      </node>
+      <node id="Documentaries" label="Documentaries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Dramas" label="Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Independent Movies" label="Independent Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="International Movies" label="International Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Comedies" label="Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Comedies" label="TV Comedies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Dramas" label="TV Dramas">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Horror Movies" label="Horror Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sci-Fi &amp; Fantasy" label="Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Thrillers" label="Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Action &amp; Adventure" label="Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Kids' TV" label="Kids' TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Sci-Fi &amp; Fantasy" label="TV Sci-Fi &amp; Fantasy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Classic Movies" label="Classic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Reality TV" label="Reality TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Crime TV Shows" label="Crime TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Children &amp; Family Movies" label="Children &amp; Family Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Music &amp; Musicals" label="Music &amp; Musicals">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Sports Movies" label="Sports Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Action &amp; Adventure" label="TV Action &amp; Adventure">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Cult Movies" label="Cult Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic Movies" label="Romantic Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Faith &amp; Spirituality" label="Faith &amp; Spirituality">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="LGBTQ Movies" label="LGBTQ Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Mysteries" label="TV Mysteries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Horror" label="TV Horror">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Anime Features" label="Anime Features">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Movies" label="Movies">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Docuseries" label="Docuseries">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Stand-Up Comedy" label="Stand-Up Comedy">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Teen TV Shows" label="Teen TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Classic &amp; Cult TV" label="Classic &amp; Cult TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="International TV Shows" label="International TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Science &amp; Nature TV" label="Science &amp; Nature TV">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Romantic TV Shows" label="Romantic TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Anime Series" label="Anime Series">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Thrillers" label="TV Thrillers">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Stand-Up Comedy &amp; Talk Shows" label="Stand-Up Comedy &amp; Talk Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="TV Shows" label="TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Spanish-Language TV Shows" label="Spanish-Language TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="British TV Shows" label="British TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+      <node id="Korean TV Shows" label="Korean TV Shows">
+        <attvalues>
+          <attvalue for="0" value="genre" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="United States" target="Documentaries" id="0" weight="0.6131736526946108" />
+      <edge source="United States" target="Dramas" id="1" weight="1.0" />
+      <edge source="United States" target="Independent Movies" id="2" weight="0.46706586826347307" />
+      <edge source="United States" target="International Movies" id="3" weight="0.19880239520958085" />
+      <edge source="United States" target="Comedies" id="4" weight="0.8143712574850299" />
+      <edge source="United States" target="TV Comedies" id="5" weight="0.3089820359281437" />
+      <edge source="United States" target="TV Dramas" id="6" weight="0.2778443113772455" />
+      <edge source="United States" target="Horror Movies" id="7" weight="0.2407185628742515" />
+      <edge source="United States" target="Sci-Fi &amp; Fantasy" id="8" weight="0.21676646706586827" />
+      <edge source="United States" target="Thrillers" id="9" weight="0.34970059880239523" />
+      <edge source="United States" target="Action &amp; Adventure" id="10" weight="0.48383233532934133" />
+      <edge source="United States" target="Kids' TV" id="11" weight="0.2562874251497006" />
+      <edge source="United States" target="TV Sci-Fi &amp; Fantasy" id="12" weight="0.0718562874251497" />
+      <edge source="United States" target="Classic Movies" id="13" weight="0.09700598802395209" />
+      <edge source="United States" target="Reality TV" id="14" weight="0.1473053892215569" />
+      <edge source="United States" target="Crime TV Shows" id="15" weight="0.17365269461077845" />
+      <edge source="United States" target="Children &amp; Family Movies" id="16" weight="0.46706586826347307" />
+      <edge source="United States" target="Music &amp; Musicals" id="17" weight="0.17604790419161676" />
+      <edge source="United States" target="Sports Movies" id="18" weight="0.13532934131736526" />
+      <edge source="United States" target="TV Action &amp; Adventure" id="19" weight="0.1125748502994012" />
+      <edge source="United States" target="Cult Movies" id="20" weight="0.06227544910179641" />
+      <edge source="United States" target="Romantic Movies" id="21" weight="0.2694610778443114" />
+      <edge source="United States" target="Faith &amp; Spirituality" id="22" weight="0.05029940119760479" />
+      <edge source="United States" target="LGBTQ Movies" id="23" weight="0.07544910179640718" />
+      <edge source="United States" target="TV Mysteries" id="24" weight="0.06107784431137724" />
+      <edge source="United States" target="TV Horror" id="25" weight="0.04431137724550898" />
+      <edge source="United States" target="Anime Features" id="26" weight="0.008383233532934131" />
+      <edge source="United States" target="Movies" id="27" weight="0.026347305389221556" />
+      <edge source="United States" target="Docuseries" id="28" weight="0.22994011976047904" />
+      <edge source="United States" target="Stand-Up Comedy" id="29" weight="0.25868263473053893" />
+      <edge source="United States" target="Teen TV Shows" id="30" weight="0.03952095808383234" />
+      <edge source="United States" target="Classic &amp; Cult TV" id="31" weight="0.02035928143712575" />
+      <edge source="United States" target="International TV Shows" id="32" weight="0.08862275449101796" />
+      <edge source="United States" target="Science &amp; Nature TV" id="33" weight="0.058682634730538925" />
+      <edge source="United States" target="Romantic TV Shows" id="34" weight="0.05269461077844311" />
+      <edge source="United States" target="Anime Series" id="35" weight="0.02155688622754491" />
+      <edge source="United States" target="TV Thrillers" id="36" weight="0.032335329341317366" />
+      <edge source="United States" target="Stand-Up Comedy &amp; Talk Shows" id="37" weight="0.03952095808383234" />
+      <edge source="United States" target="TV Shows" id="38" weight="0.004790419161676647" />
+      <edge source="United States" target="Spanish-Language TV Shows" id="39" weight="0.03473053892215569" />
+      <edge source="United States" target="British TV Shows" id="40" weight="0.02874251497005988" />
+      <edge source="United States" target="Korean TV Shows" id="41" weight="0.003592814371257485" />
+    </edges>
+  </graph>
+</gexf>
